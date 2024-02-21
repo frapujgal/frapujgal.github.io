@@ -29,6 +29,20 @@ h2 {
     padding-bottom: 5px;
 }
 
+h3 a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+header p a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 section {
     background-color: #fff;
     padding: 20px;
