@@ -1,5 +1,5 @@
 :root {
-    --main-color: orange;
+    --main-color: #FFA500;
     --blue-color: #ADD8E6;
     --box-color: #f4f4f4;
     --mode-color: #333;
@@ -7,7 +7,7 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --main-color: orange;
+        --main-color: #FFA500;
         --blue-color: #2A3B47;
         --box-color: #192229;
         --mode-color: #C8CDD0;
