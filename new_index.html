@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Pujol Gallego</title>
+    <script>
+
+        const userLang = navigator.language || navigator.userLanguage;
+
+        if (userLang.startsWith('es')) {
+            window.location.href = 'es/index.html';
+        } else {
+            window.location.href = 'en/index.html';
+        }
+
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
